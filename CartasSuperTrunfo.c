@@ -59,12 +59,12 @@ int main() {
     printf("A quantidade de pontos turísticos na cidade: \n");
     scanf("%d", &Pontos2);
 
-    Densidade = População / Área;
+    Densidade = População / Área; // Formula para a densidade populacional
     Densidade2 = População2 / Área2;
-    PIBPC = PIB / População;
+    PIBPC = PIB / População; // Formula para o PIB per capita
     PIBPC2 = PIB2 / População2;
 
-    printf("Carta 1:\n"); // Aqui começa a mostrar as informações escolhidas pelo usuário
+    printf("Carta 1:\n"); // Aqui começa a mostrar as informações da carta 1 escolhidas pelo usuário
     printf("Estado: %c\n", Estado);
     printf("Código: %s\n", Código);
     printf("Nome da cidade: %s\n", Cidade);
